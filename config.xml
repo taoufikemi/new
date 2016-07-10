@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.tbenapp.test"
+    version   = "1.0.0">
+
+<name>My test application</name>
+
+<description>
+A simple PhoneGap Build application.
+</description>
+
+<author href="https://example.com" email="you@example.com">
+BENHAMMOU TAOUFIK
+</author>
+
+<preference name="phonegap-version" value="cli-5.2.0" />
+<preference name="permissions" value="none"/>
+<preference name="android-build-tool" value="gradle" /> 
+<gap:plugin name="cordova-plugin-admobpro" source="npm" />
+
+</widget>
